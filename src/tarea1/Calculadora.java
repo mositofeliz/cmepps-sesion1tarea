@@ -22,4 +22,9 @@ public class Calculadora {
         int suma = this.a + this.b;
         return suma;
     }
+    public int resta(){
+        System.out.println("Vamos a restar dos numeros");
+        int resta = this.a - this.b;
+        return resta;
+    }
 }
